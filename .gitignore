@@ -10,3 +10,10 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+*~
+*.swp
+
+# Calva extension files
+.clj-kondo/
+.lsp/
+.calva/
