@@ -6,10 +6,10 @@ This project contains a basic Clojure app and the configuration required to crea
 
 See the [official documentation](https://code.visualstudio.com/docs/remote/containers#_getting-started) or review the checklist below:
 
-System requirements
+### System requirements
 
 * [Docker Desktop](https://www.docker.com/get-started) 2.0 or later
-* Install the [Remote Development expansion pack](https://aka.ms/vscode-remote/download/extension)
+* The VS Code [Remote Development expansion pack](https://aka.ms/vscode-remote/download/extension)
 ## Usage
 
 
@@ -20,7 +20,7 @@ The first time it's opened, a Docker image including Java, Clojure and Leiningen
 
 When finished, it should open a Clojure project and load the **Calva** extension automatically.
 
-You can start editing the code in `src/myapp/core.clj` to get your feet wet. Also, you can open the Calva extension's excellent *Calva: Fire up the Getting Started REPL* by pressing `F1` and searching for it.
+You can start editing the code in `src/myapp/core.clj` to get your feet wet. Also, you can open the Calva extension's excellent *Getting Started* guide by pressing `F1` to open the Command Palette and searching for *Calva: Fire up the Getting Started REPL*.
 
 ## License
 
