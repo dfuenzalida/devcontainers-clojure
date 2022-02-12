@@ -1,36 +1,30 @@
-# myapp
+# devcontainers-clojure
 
-FIXME: description
+This project contains a basic Clojure app and the configuration required to create a [developer container](https://microsoft.github.io/code-with-engineering-playbook/developer-experience/devcontainers/) so you can experiment and start learning Clojure.
 
-## Installation
+## Getting started
 
-Download from http://example.com/FIXME.
+See the [official documentation](https://code.visualstudio.com/docs/remote/containers#_getting-started) or review the checklist below:
 
+System requirements
+
+* [Docker Desktop](https://www.docker.com/get-started) 2.0 or later
+* Install the [Remote Development expansion pack](https://aka.ms/vscode-remote/download/extension)
 ## Usage
 
-FIXME: explanation
 
-    $ java -jar myapp-0.1.0-standalone.jar [args]
+* Clone this repository from Visual Studio Code, then open it
+* When asked, allow it to *Reopen in Container*
 
-## Options
+The first time it's opened, a Docker image including Java, Clojure and Leiningen will be created (this takes a while depending on your computer and network speed).
 
-FIXME: listing of options this app accepts.
+When finished, it should open a Clojure project and load the **Calva** extension automatically.
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+You can start editing the code in `src/myapp/core.clj` to get your feet wet. Also, you can open the Calva extension's excellent *Calva: Fire up the Getting Started REPL* by pressing `F1` and searching for it.
 
 ## License
 
-Copyright © 2022 FIXME
+Copyright © 2022 Denis Fuenzalida
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
